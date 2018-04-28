@@ -82,7 +82,7 @@ int code;
  * which is supposed to be the name of the
  * function in which the error occurred:
  */
-printf( "\n%s ", name );
+/*printf( "\n%s ", name );*/
   /* exit(2); */
 
 /* Display error message defined
@@ -90,7 +90,7 @@ printf( "\n%s ", name );
  */
 if( (code <= 0) || (code >= 6) )
 	code = 0;
-printf( "%s error\n", ermsg[code] );
+/*printf( "%s error\n", ermsg[code] );*/
 
 /* Return to calling
  * program
